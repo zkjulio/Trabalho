@@ -1,0 +1,33 @@
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --botao-azul-efeito: #2bcdff;
+    --cor-de-fundo: #00030C;
+    --fonte-principal: 'Inter';
+}
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+.calculadora__botao {
+    background-color: transparent;
+    color: var(--branco-principal);
+    border: 2px solid var(--branco-principal);
+}
+
+.calculadora__botao:hover {
+    background-color: var(--botao-azul-efeito);
+    color: var(--cor-de-fundo);
+}
